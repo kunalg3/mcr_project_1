@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.top{
+    height:65vh;
+    width:100vw;
+    background-color: #FFCD9E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    height: 35vh;
+    width: 100vw;
+    background-color: #282828;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 60vw; */
+}
+.top-left{
+    height:100%;
+    width: 50vw;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+.top-right{
+    height:100%;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    position: relative;
+    right: 7px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.foot-left{
+    /* height: 100%; */
+    /* width: 50%; */
+    position: relative;
+    left: 80px;
+}
+.foot-right{
+    /* height: 100%;
+    width: 50%; */
+    position: relative;
+    right: 120px;
+    text-align: end;
+}
+input{
+    padding:10px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 35px;
+}
+input::placeholder{
+    font-size: 19px;
+    color: #888888;
+    position: relative;
+    left: 7px;
+    top: 3px;
+}
+button{
+    background-color: #282828;
+    color: white;
+    width: 180px;
+    height: 58px;
+    border-radius:8px ;
+    font-weight:550;
+    font-size: large;
+    position: relative;
+    top: 35px;
+
+}
+.msg{
+    position: relative;
+    top:18px;
+    font-weight: 800;
+    color: #282828;
+}
+.disclam{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 15px;
+    color:#FFFFFF ;
+}
+h1{
+    color: #282828;
+}
+.text{
+    color: #282828;
+}
+form{
+    display: flex;
+    gap: 2%;
+}
+ul{
+    position: relative;
+    top: 30px;
+    list-style-type: none;
+}
+li{
+    line-height: 1.8;
+}
